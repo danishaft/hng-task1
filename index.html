@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal App</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="name" data-testid="slackUserName">D-squared</h1>
+      <div id="time" data-testid="currentUTCTime"></div>
+      <div id="day" data-testid="currentDayOfTheWeek"></div>
+    </header>
+    <main>
+      <h2 class="big-text"><b>I'm an HNG <span class="blue">Intern.</span><br><span class="blue"  data-testid="myTrack">Frontend</span> Track</b></h2>
+      <div class="link-btn">
+        <a class="btn" href="https://portfolio-v1-alpha-mauve.vercel.app/" target="_blank">See projects</a>
+        <a class="btn" href="#">Download cv</a>
+      </div>
+      <figure>
+        <div class="img"><img src="public/IMG_2484-removebg-preview (3).png" alt="D-squared" data-testid="slackDisplayImage"></div>
+        <figcaption>
+          <h3>About Me</h3>
+          <p class="about-me">
+            I’m a frontend developer specializing in making digital products come to life through codes. I build innovative products that solve user needs while providing a good user experience. 
+            I'm also a fast learner and a patient listener, i pay attention to every detail, and i have an insatiable hunger for learning. 
+          </p>
+          <div class="socials">
+            <a href="https://github.com/danishaft" target="_blank" data-testid="githubURL"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/ejeh-daniel-482409190/" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://twitter.com/EjehAy_Daniel" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </figcaption>
+      </figure>
+    </main>
+    <footer>
+      created by D-squared - Hng tasks
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
